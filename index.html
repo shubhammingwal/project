@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+          <div class="sidebar-info">
+            <figure class="avatar-box">
+              <img src="./assets/images/avatar-1.png" width="80">
+            </figure>
+            <div class="info-content">
+              <h1 class="name" title="Shubham Mingwal">Shubham Mingwal</h1>
+              <p class="title">Web developer</p>
+            </div>
+          </div>
+          <div class="sidebar-info_more">
+            <div class="separator"></div>
+            <ul class="contacts-list">
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+                  <a href="mailto:shubhammingwal1986@gmail.com" class="contact-link">shubhammingwal1986@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+                  <a href="tel:+916397464773" class="contact-link">+91 6397464773</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Birthday</p>
+                  <time datetime="2000-04-24">April 24, 2000</time>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+                  <address>Rishikesh, Dehradun Uttarakhand, India</address>
+                </div>
+              </li>
+            </ul>
+            <div class="separator"></div>
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+    
+    
+    
+        <div class="main-content">
+          <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" onclick="scrollToSection('about')">About</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="scrollToSection('portfolio')">Portfolio</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="scrollToSection('blog')">Blog</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" onclick="scrollToSection('contact')">Contact</button>
+                </li>
+            </ul>
+        </nav>
+    
+      
+    
+    
+          <article class="about  active" id="about-section"  data-page="about">
+    
+            <header>
+              <h2 class="h2 article-title">About me</h2>
+            </header>
+    
+            <section class="about-text">
+              <p>
+                Hello there! I'm Shubham Mingwal, a passionate web developer hailing from the beautiful region of
+                Uttarakhand, India. With a fervent love for crafting digital experiences, I thrive on turning ideas into
+                elegant and functional websites.
+              </p>
+    
+              <p>
+                My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+                Moreover, I
+                add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+                across your
+                message and identity in the most creative way.
+              </p>
+            </section>
+    
+    
+            <section class="service">
+    
+              <h3 class="h3 service-title">What i'm doing</h3>
+    
+              <ul class="service-list">
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-design.svg" alt="Heading icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web Heading</h4>
+    
+                    <p class="service-item-text">
+                      The most modern and high-quality Heading made at a professional level.
+                    </p>
+                  </div>
+    
+                </li>
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web development</h4>
+    
+                    <p class="service-item-text">
+                      High-quality development of sites at the professional level.
+                    </p>
+                  </div>
+    
+                </li>
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Mobile apps</h4>
+    
+                    <p class="service-item-text">
+                      Professional development of applications for iOS and Android.
+                    </p>
+                  </div>
+    
+                </li>
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Photography</h4>
+    
+                    <p class="service-item-text">
+                      I make high-quality photos of any category at a professional level.
+                    </p>
+                  </div>
+    
+                </li>
+    
+              </ul>
+    
+            </section>
+    
+    
+            <section class="testimonials">
+    
+              <h3 class="h3 testimonials-title">Testimonials</h3>
+    
+              <ul class="testimonials-list has-scrollbar">
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-1.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-one</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto quaerat iure. Harum
+                        dolorem et quos quidem eligendi, magni hic veritatis ullam at minima aut eum, dignissimos suscipit.
+                        Placeat, sapiente!
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-2.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-two</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam doloremque facere obcaecati
+                        tenetur exercitationem voluptatibus at omnis earum doloribus, ratione nisi? Quos culpa consequatur
+                        eius aliquid repellat obcaecati fuga?
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-3.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-three</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam doloremque facere obcaecati
+                        tenetur exercitationem voluptatibus at omnis earum doloribus, ratione nisi? Quos culpa consequatur
+                        eius aliquid repellat obcaecati fuga?
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-4.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-four</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam doloremque facere obcaecati
+                        tenetur exercitationem voluptatibus at omnis earum doloribus, ratione nisi? Quos culpa consequatur
+                        eius aliquid repellat obcaecati fuga?
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-1.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-one</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto quaerat iure. Harum
+                        dolorem et quos quidem eligendi, magni hic veritatis ullam at minima aut eum, dignissimos suscipit.
+                        Placeat, sapiente!
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-2.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-two</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam doloremque facere obcaecati
+                        tenetur exercitationem voluptatibus at omnis earum doloribus, ratione nisi? Quos culpa consequatur
+                        eius aliquid repellat obcaecati fuga?
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-3.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-three</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam doloremque facere obcaecati
+                        tenetur exercitationem voluptatibus at omnis earum doloribus, ratione nisi? Quos culpa consequatur
+                        eius aliquid repellat obcaecati fuga?
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+    
+                    <figure class="testimonials-avatar-box">
+                      <img src="./assets/images/avatar-4.png" width="60" data-testimonials-avatar>
+                    </figure>
+    
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>User-four</h4>
+    
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam doloremque facere obcaecati
+                        tenetur exercitationem voluptatibus at omnis earum doloribus, ratione nisi? Quos culpa consequatur
+                        eius aliquid repellat obcaecati fuga?
+    
+                      </p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+            </section>
+    
+    
+          </article>
+    
+          <article class="portfolio" id="portfolio-section" data-page="portfolio">
+    
+            <header>
+              <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+    
+            <section class="projects">
+    
+              <ul class="list">
+    
+                <li class="item">
+                  <button class="active">All</button>
+                </li>
+    
+                <li class="item">
+                  <button>Web Heading</button>
+                </li>
+    
+                <li class="item">
+                  <button>Applications</button>
+                </li>
+    
+                <li class="item">
+                  <button>Web development</button>
+                </li>
+    
+              </ul>
+    
+    
+    
+              <ul class="project-list">
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-1</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg " loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-2</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-3</h3>
+    
+                    <p class="project-category">Web Heading</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg " loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-4</h3>
+    
+                    <p class="project-category">Applications</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-5</h3>
+    
+                    <p class="project-category">Web Heading</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-6</h3>
+    
+                    <p class="project-category">Web Heading</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-7</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-8</project-8></h3>
+    
+                    <p class="project-category">Applications</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project.jpeg" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">project-9</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </section>
+    
+          </article>
+    
+    
+          <article class="blog" id="blog-section" data-page="blog">
+    
+            <header>
+              <h2 class="h2 article-title">Blog</h2>
+            </header>
+    
+            <section class="blog-posts">
+    
+              <ul class="blog-posts-list">
+    
+                <li class="blog-post-item">
+                  <a href="#">
+    
+                    <figure class="blog-banner-box">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">Heading</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2024-04-20">Apr 20, 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Blog Title</h3>
+    
+                      <p class="blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nisi adipisci
+                        reiciendis officia cumque earum, similique totam nam. Aut inventore soluta ex odio doloribus quis
+                        voluptatibus, asperiores veritatis cupiditate animi! </p>
+                    </div>
+    
+                  </a>
+                </li>
+    
+                <li class="blog-post-item">
+                  <a href="#">
+    
+                    <figure class="blog-banner-box">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">Heading</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2024-04-20">Apr 20, 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Blog Title</h3>
+    
+                      <p class="blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nisi adipisci
+                        reiciendis officia cumque earum, similique totam nam. Aut inventore soluta ex odio doloribus quis
+                        voluptatibus, asperiores veritatis cupiditate animi! </p>
+                    </div>
+    
+                  </a>
+                </li>
+    
+                <li class="blog-post-item">
+                  <a href="#">
+    
+                    <figure class="blog-banner-box">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">Heading</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2024-04-20">Apr 20, 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Blog Title</h3>
+    
+                      <p class="blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nisi adipisci
+                        reiciendis officia cumque earum, similique totam nam. Aut inventore soluta ex odio doloribus quis
+                        voluptatibus, asperiores veritatis cupiditate animi!.
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+    
+                <li class="blog-post-item">
+                  <a href="#">
+    
+                    <figure class="blog-banner-box">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">Heading</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2024-04-20">Apr 20, 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Blog Title</h3>
+    
+                      <p class="blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nisi adipisci
+                        reiciendis officia cumque earum, similique totam nam. Aut inventore soluta ex odio doloribus quis
+                        voluptatibus, asperiores veritatis cupiditate animi!
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+    
+                <li class="blog-post-item">
+                  <a href="#">
+    
+                    <figure class="blog-banner-box">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">Heading</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2024-04-20">Apr 20, 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Blog Title</h3>
+    
+                      <p class="blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nisi adipisci
+                        reiciendis officia cumque earum, similique totam nam. Aut inventore soluta ex odio doloribus quis
+                        voluptatibus, asperiores veritatis cupiditate animi! </p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+    
+                <li class="blog-post-item">
+                  <a href="#">
+    
+                    <figure class="blog-banner-box">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">Heading</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2024-04-20">Apr 20, 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Blog Title</h3>
+    
+                      <p class="blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nisi adipisci
+                        reiciendis officia cumque earum, similique totam nam. Aut inventore soluta ex odio doloribus quis
+                        voluptatibus, asperiores veritatis cupiditate animi!</p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </section>
+    
+          </article>
+    
+          <article class="contact" id="contact-section" data-page="contact">
+    
+            <header>
+              <h2 class="h2 article-title">Contact</h2>
+            </header>
+    
+    
+    
+            <section class="contact-form">
+
+              <h3 class="h3 form-title">Contact Form</h3>
+          
+              <form action="#" class="form" data-form>
+          
+                  <div class="input-wrapper">
+                      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+          
+                      <span class="error-message" id="name-error"></span>
+          
+                      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          
+                      <span class="error-message" id="email-error"></span>
+                  </div>
+          
+                  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          
+                  <span class="error-message" id="message-error"></span>
+          
+                  <button class="form-btn" type="submit" data-form-btn>
+                      <ion-icon name="paper-plane"></ion-icon>
+                      <span>Send Message</span>
+                  </button>
+          
+              </form>
+          
+          </section>
+          
+          
+          
+    
+          </article>
+    
+        </div>
+    
+      </main>
+      <script src="assets/script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
